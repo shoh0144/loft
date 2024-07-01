@@ -1,0 +1,259 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+.navbar{
+    /* background-color: aqua; */
+    margin-top: 20px;
+}
+.navbar-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-filter{
+    width: 100%;
+    max-width: 840px;
+    border: 1px solid #E6E6E6;
+    padding: 18px 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-filter input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+
+.jadval__flex1{
+    display: flex;
+    padding-left: 40px;
+    gap: 5px;
+    
+   
+
+}
+.jadval__titla{
+    color: #D74444;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.jadval__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    width: 1200px;
+height: 70px;
+flex-shrink: 0;
+background: #FFF;
+margin-top: 20px;
+margin-bottom: 30px;
+
+/* menu-shadow */
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+}
+.jadval__flex2{
+    display: flex;
+    padding-right: 40px;
+    margin-bottom: 50px;
+   
+}
+.word{
+    margin-top: 5px;
+}
+.texer{
+    color: #969696;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.texs{
+    color: var(--text-color, #414141);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 50px;
+}
+.contackt{
+    margin-top: 40px;
+}
+.contackt-content{
+ 
+}
+.ccd{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+    
+}
+.contackt-logo{
+    width: 207px;
+height: 38px;
+flex-shrink: 0;
+
+background: #FCFCFC;
+
+/* inner-shadow */
+box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.07) inset;
+
+}
+.contackt-logo p{
+    color: #969696;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+
+}
+.contackt-logo input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+}
+.contackt-filter{
+    width: 457px;
+height: 142px;
+flex-shrink: 0;
+margin-top: 20px;
+background: #FCFCFC;
+
+/* inner-shadow */
+box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.07) inset;
+
+}
+.contackt-filter p{
+    color: #969696;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+.contackt-filter input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+}
+.contackt-details{
+ display: flex;
+ align-items: center;
+ margin-left: 190px;
+ gap: 10px;
+    margin-top: 20px;
+}
+.btn2{
+    color: var(--text-color, #414141);
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn2{
+    width: 149px;
+height: 40px;
+flex-shrink: 0;
+
+background: #FFF;
+border: none;
+/* menu-shadow */
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+
+}
+.btn3{
+    color: #FFF;
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.btn3{
+    width: 106px;
+height: 40px;
+flex-shrink: 0;
+background: var(--main-color, #245462);
+border: none;
+}
+.telefon{
+    margin-left: 650px;
+    margin-top: 35px;
+  
+}
+.eer{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: -250px;
+   
+}
+.word2{
+    margin-top: 200px;
+}
+
+.texs2{
+    color: var(--text-color, #414141);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+word a{
+    margin-top: 50px;
+}
+.fooof{
+    margin-top: 50px;
+}
+.s{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   margin-left: -120px;
+}

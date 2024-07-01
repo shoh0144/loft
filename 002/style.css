@@ -1,0 +1,267 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+.navbar{
+    /* background-color: aqua; */
+    margin-top: 20px;
+}
+.navbar-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-filter{
+    width: 100%;
+    max-width: 840px;
+    border: 1px solid #E6E6E6;
+    padding: 18px 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-filter input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.main{
+    width: 100%px;
+height: 38px;
+flex-shrink: 0;
+background: #313131;
+color: #FFF;
+}
+.main__flex{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.main__right{
+    display: flex;
+    margin-top: 10px;
+    gap: 30px;
+    
+}
+.main__left{
+    display: flex;
+    margin-top: 10px;
+    gap: 30px;
+}
+.main__right p{
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.main__left p{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.jadval__flex1{
+    display: flex;
+    padding-left: 40px;
+    gap: 5px;
+    
+   
+
+}
+.jadval__titla{
+    color: #D74444;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.jadval__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    width: 1200px;
+height: 70px;
+flex-shrink: 0;
+background: #FFF;
+margin-top: 20px;
+margin-bottom: 30px;
+
+/* menu-shadow */
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+}
+.jadval__flex2{
+    display: flex;
+    padding-right: 40px;
+    margin-bottom: 50px;
+   
+}
+.zay__text{
+    margin-top: 50px;
+}
+
+.header__content {
+    background-image: url(./img/1785\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1200px;
+    height: 450px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+
+
+ 
+}
+
+.header__title{
+    color: #3C3C3C;
+font-family: "Playfair Display";
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 105.3%; /* 52.65px */
+letter-spacing: 1px;
+text-transform: uppercase;
+width: 216px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.header__text{
+    color: #343434;
+font-family: "Roboto Condensed";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140.8%; /* 22.528px */
+letter-spacing: 0.32px;
+margin-top: 7px;
+
+
+}
+.header__btn{
+    color: var(--text-color, #414141);
+font-family: "Roboto Condensed";
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 140.8%; /* 16.896px */
+letter-spacing: 0.48px;
+background: #FFF;
+border: none;
+cursor: pointer;
+
+
+/* menu-shadow */
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+width: 163px;
+height: 45px;
+flex-shrink: 0;
+margin-top: 20px;
+}
+.header__btn1{
+    transition: 0.5s;
+}
+
+.shop-leader-title {
+    color: var(--text-color, #414141);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.shop-row {
+    margin-top: 67px;
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+    justify-content: center;
+}
+
+.shop-col {
+    transition: 0.8s;
+}
+
+.shop-col-title {
+    padding-left: 20px;
+    padding-top: 54px;
+    color: var(--text-color, #414141);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 6px;
+}
+
+.shop-col-text {
+    padding-left: 20px;
+    color: var(--text-color, #414141);
+    font-family: 'Roboto';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 9px;
+}
+
+.shop-col-price {
+    padding-left: 20px;
+    color: var(--text-color, #414141);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.shop-col:hover {
+    scale: 1.2;
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.11);
+}
